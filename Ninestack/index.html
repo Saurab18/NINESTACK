@@ -16,6 +16,8 @@
     width: 100%;
     max-width: 100%;
 }
+    label.required:after { content: '*';color:red; }
+
     </style>
 
 </head>
@@ -36,28 +38,28 @@
                 </div>
 <br>
                 <div>
-                    <label for="firstname">First name:</label>
+                    <label class="required" for="firstname">First name:</label>
                 </div>
                 <div>
                     <input class="inputBox" id="firstname" type="text" required>
                 </div>
 
                 <div>
-                    <label for="lastname">Last name:</label>
+                    <label class="required" for="lastname">Last name:</label>
                 </div>
                 <div>
                     <input class="inputBox" id="lastname" type="text" required>
                 </div>
 
                 <div>
-                    <label for="email">Email:</label>
+                    <label class="required" for="email">Email:</label>
                 </div>
                 <div>
                     <input class="inputBox" id="email" type="email" required>
                 </div>
 
                 <div>
-                    <label for="name">Company name:</label>
+                    <label class="required" for="name">Company name:</label>
                 </div>
                 <div>
                     <input class="inputBox" id="name" type="text" required>
